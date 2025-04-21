@@ -76,7 +76,7 @@ body{
 
 
 /*     HERO SECTION           */
-.home{
+.home {
   display:flex;
   
   margin-top: 10%;
@@ -138,7 +138,7 @@ body{
   transform: scale(1.2);
   color: rgb(148, 148, 224);
 }
-.btn{
+.btn {
   background:rgb(85, 27, 124) ;
   border: none;
   padding: 10px 20px;
@@ -147,6 +147,8 @@ body{
   font-weight: bold;
   cursor: pointer;
   transition: background o.3s ease;
+  width: 150px;
+  
 }
 .btn:hover{
   background: rgb(148, 148, 222);
@@ -176,4 +178,108 @@ body{
   .profile_image{
     margin-top: 30px;
   }
+}
+
+
+
+
+
+/* About Me     */
+
+
+.about_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center ;
+  gap: 1.5rem;
+  margin-bottom: 50px;
+
+}
+
+.about_pic img{
+  max-width: 630px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 25%;
+
+}
+
+.about_me h2{
+  font-size: 60px;
+}
+
+.about_me h2 span{
+  color: rgb(72, 229, 229);
+}
+
+.about_me h4{
+  font-size: 29px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about_me p{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+
+/* skiils section */
+
+
+
+.skills_image{
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+}
+.skills_section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.skills_box{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.description {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  top: 25%;
+  left: 5%;
+  max-width: 300px; 
+  
+}
+
+
+.gradient{
+  margin-left: 20%;
+  margin-top: 28%;
+}
+.tools{
+ 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  top: 35%;
+  right: 5%;
+  max-width: 300px;
+  
+
 }
