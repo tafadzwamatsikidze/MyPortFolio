@@ -363,3 +363,99 @@ body{
 .slider.iterm:hover{
   filter: grayscale(0);
 }
+
+
+
+/* My Projects */
+
+
+.my_projects .section_title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 .section_title, span{
+  color: rgb(72, 229, 229);
+}
+
+
+.my_projects{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  margin-top: 200px;
+  margin-bottom: 700px;
+
+}
+
+.project_card{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+  gap: 10%;
+  justify-content: center;
+}
+
+.project_pic{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+   position: relative;
+   cursor: pointer;
+   min-width: 400px;
+   transition: 0.5s;
+   mix-blend-mode: difference;
+
+}
+
+.project_pic img{
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 0 0 10px lightgray;
+  border-radius: 20px;
+  transition: 0.5s;
+
+}
+.project_info{
+  display:1 1 45%;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding-left: 5%;
+}
+.project_info h1{
+  width: 90%;
+  font-size: 25px;
+  font-weight: bold;
+  text-wrap: nowrap;
+  margin-bottom: 10px;
+  margin-top: 0;
+  max-width: 450px;
+
+}
+.project_info p {
+  width: 90%;
+  max-width: 400px;
+  min-width: 300px;
+  margin-bottom: 50px;
+  margin-top: 0px ;
+}
+
+.project_info button{
+  border-radius: 15px;
+  background-color:rgb(72, 229, 229);
+  border: 3px solid rgb(232, 238, 238);
+  width: 200px;
+
+ 
+}
+.project_info button:hover{
+  box-shadow:  rgb(11, 17, 49);
+  
+}
