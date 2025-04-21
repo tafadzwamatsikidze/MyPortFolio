@@ -459,3 +459,90 @@ h1 .section_title, span{
   box-shadow:  rgb(11, 17, 49);
   
 }
+/* contuct section*/
+
+.contuct_title{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 27%;
+}
+.contuct_section{
+  width: 30%;
+  height: 100vh;
+  justify-content:center ;
+  align-items: center;
+  margin-left: 40%;
+  
+}
+ .conduct_section h1{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+
+
+ }
+
+ .social_links{
+  display: flex;
+  gap: 26px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 29%;
+
+ }
+
+ .social_links a{
+  color: lightgray;
+  text-decoration: none;
+  font-size: 20px;
+  text-wrap: nowrap;
+ }
+ .social_links i{
+  color: rgb(103, 60, 144);
+  font-size: 30px;
+  margin-right: 10px;
+ }
+ .my_form{
+  box-shadow: 0 0 10px lightgray;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+ .my_form p{
+  max-width: 400px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+ }
+
+ .my_form input{
+  padding: 7,5px 30px;
+  background-color: aqua;
+  width: 80%;
+  height: 25px;
+  border: 2px solid lightgrey;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+ }
+
+ .my_form button{
+  margin-top: 20px;
+  border-radius: 15px;
+ background-color:rgb(72, 229, 229);
+ border: 3px solid rgb(232, 238, 238);
+ width: 200px;
+ }
+ .my_form button:hover{
+  background-color:rgb(7, 129, 129);
+ }
+
+
+ /* footer*/
+
+ footer{
+  font-style: italic;
+  color: rgb(249, 248, 251);
+
+}
