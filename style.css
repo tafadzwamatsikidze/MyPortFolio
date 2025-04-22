@@ -6,6 +6,9 @@ body{
 
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 .navbar{
@@ -233,6 +236,7 @@ body{
 .tittle{
   font-size: 50px;
   font-weight: b;
+  margin-bottom: 30px;
 }
 
 .tittle span{
@@ -455,8 +459,8 @@ h1 .section_title, span{
 
  
 }
-.project_info button:hover{
-  box-shadow:  rgb(11, 17, 49);
+.project_info button :hover{
+  background-color: rgb(11, 17, 49);
   
 }
 /* contuct section*/
